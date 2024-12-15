@@ -1,0 +1,16 @@
+
+html, body{
+    height: 100%; /* Garante que a página ocupe toda a altura */
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Garante que ocupe toda a largura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; /* Cor de fundo padrão para a página */
+    }
+    .home-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* Espaçamento entre os botões */
+      }

@@ -1,0 +1,80 @@
+/* Configuração global do HTML e body */
+html, body {
+    height: 100%; /* Garante que a página ocupe toda a altura */
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Garante que ocupe toda a largura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; /* Cor de fundo padrão para a página */
+  }
+  
+  /* Centraliza o conteúdo e ajusta o tamanho */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Garante que ocupe toda a altura da página */
+    width: 100%; /* Garante que ocupe toda a largura da tela */
+    background-color: #000000; /* Cor de fundo igual à do body */
+    padding: 20px;
+    box-sizing: border-box; /* Para incluir padding no cálculo do tamanho */
+    text-align: center;
+  }
+  
+  /* Estilo do título */
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Estilo da navegação */
+  .home-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os botões */
+  }
+  
+  /* Estilo dos links */
+  .home-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    background-color: #007bff; /* Cor azul */
+    border-radius: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+  }
+
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os botões */
+  }
+  
+  .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff; /* Cor do botão */
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
